@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alegreya', serif;
+    background-image: url('https://professor-falken.com/wp-content/uploads/2017/11/Como-cambiar-la-imagen-de-fondo-del-inicio-de-sesion-en-tu-Mac-professor-falken.com_.jpg');
+    background-size: cover; 
+}
+
+.contenedor{
+    padding: 20px;
+    width: 25%;
+    height: 55%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.title{
+    font-size: 43px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(151, 28, 28);
+    padding-bottom: 30px;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.inp2{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+    padding-bottom: 40px;
+    gap: 10px;
+}
+
+.user{
+    width: 230px;
+    height: 30px;
+}
+
+.pass{
+    width: 230px;
+    height: 30px;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    margin: auto auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.recordar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+    color: rgb(151, 28, 28);
+    font-weight: 600;
+}
+
+.final{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(151, 28, 28);
+    font-weight: bold;
+}
+
+.msg{
+    color: red;
+    text-align: center;
+    display: none;
+    padding-bottom: 20px;
+}
+/* 
+PRINCIPAL */
+
+.con_inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    padding-bottom: 20px;
+}
+
+.usuario{
+    padding-right: 25px;
+}
